@@ -2,10 +2,10 @@
 
 ## 🟢 Fase 1: O "Hello World" do TCP
 
-- [ ] **Criar o Socket:** Instanciar `socket.socket(socket.AF_INET, socket.SOCK_STREAM)`.
-- [ ] **Configurar Reuso de Endereço:** Usar `setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)` para evitar o erro de "Address already in use" ao reiniciar o servidor.
-- [ ] **Bind e Listen:** Vincular ao `localhost` na porta `8080` e definir o backlog de conexões.
-- [ ] **Loop de Aceitação:** Implementar o `accept()` para receber a conexão do cliente e imprimir o endereço de IP/porta de quem conectou.
+- ✅ **Criar o Socket:** Instanciar `socket.socket(socket.AF_INET, socket.SOCK_STREAM)`.
+- ✅ **Configurar Reuso de Endereço:** Usar `setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)` para evitar o erro de "Address already in use" ao reiniciar o servidor.
+- ✅ **Bind e Listen:** Vincular ao `localhost` na porta `8080` e definir o backlog de conexões.
+- ✅ **Loop de Aceitação:** Implementar o `accept()` para receber a conexão do cliente e imprimir o endereço de IP/porta de quem conectou.
 
 ## 🟡 Fase 2: Parsing e Protocolo (A Arte do Texto)
 
